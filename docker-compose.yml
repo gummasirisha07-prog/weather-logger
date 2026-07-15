@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  weather-logger:
+    build: .
+    container_name: weather_logger
+    restart: unless-stopped
